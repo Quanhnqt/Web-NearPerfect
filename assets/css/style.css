@@ -196,6 +196,16 @@ html {
 
 /* Begin Content */
 #content {
+    margin-top: 100px;
     height: 1000px;
+    background-color: blanchedalmond;
+}
+#footer {
+    height: 30px; 
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0; 
+    background-color: rgb(100, 100, 100);
 }
 /* End Content */
