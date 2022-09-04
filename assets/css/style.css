@@ -1,0 +1,201 @@
+/* Reset CSS */
+* {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* General */ 
+html {
+    display: block; 
+    /*  */
+    text-transform: uppercase;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+/* Variable Constant */
+:root {
+    /* Header */
+    --Height_Header: 60px; 
+    --Padding_Nav: 2%; 
+    --Margin_Left_FirstNav: 40px; 
+    /* Top */
+    --Height_Top: 600px; 
+}
+/* Main */ 
+#main {
+
+}
+
+/* Begin Header */
+#header {
+    position: fixed; 
+    top: 0; 
+    left: 0;
+    right: 0; 
+    height: var(--Height_Header);
+    /*  */
+    background-color: black;
+}
+#nav { 
+
+}
+#nav div {
+    display: inline; 
+    line-height: var(--Height_Header);
+    padding: var(--Padding_Nav);
+    /*  */
+}
+#nav div a {
+    display: inline-block; 
+    /*  */
+    text-decoration: none;
+    color: white; 
+}
+#nav div:hover a {
+    background-color: white; 
+    color: blue; 
+}
+#nav div:first-child {
+    margin-left: var(--Margin_Left_FirstNav);
+    /*  */
+}
+/* End Header */
+
+/* Begin Top */
+#top {
+    width: 100%;
+    height: var(--Height_Top); 
+    position:relative;
+    top: var(--Height_Header); 
+    /*  */
+}
+
+#picture {
+    width: 70%; 
+    height: var(--Height_Top); 
+    position: relative; 
+    left: 27%; 
+    right: 3%;
+    /*  */
+    background-image: 
+        url('/web/Quan/assets/img/quan.jpg');
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+#name {
+    width: 30%;
+    position: absolute; 
+    left: 35%;
+    right: 35%; 
+    bottom: 1%; 
+    /*  */
+}
+#name a {
+    text-decoration: none; 
+    /* cac mac dinh cua the lien ket */
+    text-transform: none;
+    /* mac dinh in hoa */ 
+    text-align: center;
+    /* can giua */ 
+    color: black; 
+}
+#name:hover a {
+    background-color:beige;
+}
+
+#info {
+    width: 25%; 
+    height: var(--Height_Top); 
+    position: absolute; 
+    top: 0; 
+    /*  */
+    background-image: 
+        url('/web/Quan/assets/img/fairy.jpg'); 
+    background-repeat: no-repeat; 
+    background-position: bottom center;
+}
+#info .PI {
+    position: relative;
+    width: 100%; 
+    height: 20%;
+    top: 80%; 
+    /*  */
+    background-color: rgb(45, 45, 45);
+    color: rgb(210, 210, 210);
+    font-size: large;
+    text-transform: none;
+    text-align: center;
+}
+#info .PI > div {
+    padding: 2%;
+    width: 50%;
+    height: 25%; 
+    position: relative;
+    left: 25%; 
+}
+#info .PI > div:hover {
+    background-color: rgba(150, 150, 150, 0.8); 
+}
+
+.facebook > div {
+    display: none;
+    position: relative;
+    bottom: 17px; 
+    left: 8.2vw;
+    height: 25px; 
+    width: 130px; 
+    background-color: none; 
+}
+.facebook:hover div {
+    display: block;
+}
+.facebook:active div {
+    display: block;
+}
+.facebook > div > a {
+    text-decoration: none; 
+    /* cac mac dinh cua the lien ket */
+    text-transform: none;
+    /* mac dinh in hoa */ 
+    text-align: center;
+    /* can giua */ 
+    color: yellowgreen; 
+}
+.sdt > div {
+    display: none;
+    position: relative;
+    bottom: 20px;
+    left: 6.2vw;
+    background-color: none; 
+}
+.sdt:hover div {
+    display: block;
+    color: yellowgreen;
+}
+.sdt:active div {
+    display: block;
+    color: yellowgreen;
+}
+.gmail > div {
+    display: none; 
+    position: relative;
+    bottom: 20px;
+    left: 8vw;
+    background-color: none;
+}
+.gmail:hover div {
+    display: block;
+    color: yellowgreen;
+}
+.gmail:active div {
+    display: block;
+    color: yellowgreen;
+}
+/* End Top */ 
+
+/* Begin Content */
+#content {
+    height: 1000px;
+}
+/* End Content */
