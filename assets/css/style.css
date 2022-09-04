@@ -79,7 +79,7 @@ html {
     right: 3%;
     /*  */
     background-image: 
-        url('/web/Quan/assets/img/quan.jpg');
+        url('https://scontent.fdad1-4.fna.fbcdn.net/v/t39.30808-6/273481636_1299111757275955_3589787318651237901_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=qH6_zT-3hxMAX_D21q9&tn=g40Yvh62sXLuR9TQ&_nc_ht=scontent.fdad1-4.fna&oh=00_AT8yKeq4gBGphW7njpv67B0AinM6_2QLOgjMzj7g55YC7Q&oe=631855CC');
     background-repeat: no-repeat;
     background-position: top center;
 }
@@ -111,7 +111,7 @@ html {
     top: 0; 
     /*  */
     background-image: 
-        url('/web/Quan/assets/img/fairy.jpg'); 
+        url('https://scontent.fdad2-1.fna.fbcdn.net/v/t1.6435-9/194032459_1140809433106189_7066065274426097087_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=P1ja7tH8gTEAX_IIL4l&_nc_ht=scontent.fdad2-1.fna&oh=00_AT-c79w1DSsCqnXbOWOs5U99UKDq-jzABjQi64MUkiCyhw&oe=633939ED'); 
     background-repeat: no-repeat; 
     background-position: bottom center;
 }
